@@ -18,7 +18,7 @@ variable "cluster_name" {
 
 variable "initial_node_count" {
   description = "Number of worker VMs to initially create"
-  default = 3
+  default = 1
 }
 
 variable "master_username" {
